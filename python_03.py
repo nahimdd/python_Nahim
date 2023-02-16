@@ -10,7 +10,7 @@ print(ciudad)
 casado = input("Estas casado?")
 print(casado)
 
-a = int(input("Ingresa un numero entre 1 y 100"))git
+a = int(input("Ingresa un numero entre 1 y 100"))
 print(a)
 
 b = int(input("Ingresa un numero entre 100 y 200"))
