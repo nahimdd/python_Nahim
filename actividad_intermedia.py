@@ -31,13 +31,13 @@ def mostrar_informacion_del_curso(nombre):
 
 
 # Crear un curso:
-crear_curso("Curso de Python", 20, "No Iniciado", 10)
+crear_curso("Curso de QA Minds", 18, "No Iniciado", 25)
 
 # Dar de alta un curso:
-dar_de_alta_curso("Curso de Python")
+dar_de_alta_curso("Curso de QA Minds")
 
 # Buscar curso, modificar estado:
-curso = buscar_curso("Curso de Python")
+curso = buscar_curso("Curso de QA Minds")
 if curso:
     curso["estado"] = "Finalizado"
 else:
@@ -47,8 +47,5 @@ else:
 mostrar_todos_los_cursos()
 
 # Informacion de un curso especifico:
-mostrar_informacion_del_curso("Curso de Python")
-
-
-
+mostrar_informacion_del_curso("Curso de QA Minds")
 
